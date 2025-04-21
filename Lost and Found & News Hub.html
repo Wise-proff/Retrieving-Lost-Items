@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<h1>FEDERAL POLYTECHNIC BIDA, NIGER STATE</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusConnect</title>
+    <link rel="stylesheet" href="lostfound.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#lost-found">Lost and Found</a></li>
+                <li><a href="#news-announcements">News and Announcements</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="lost-found">
+            <h2>Lost and Found</h2>
+            <form id="report-lost-item">
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item-name"><br><br>
+                <label for="item-description">Item Description:</label>
+                <textarea id="item-description" name="item-description"></textarea><br><br>
+                <label for="location-(lost)">Location (Lost):</label>
+                <input type="text" id="location-(lost)" name="location-(lost)"><br><br>
+                <label for="quantity-lost">Quantity Lost:</label>
+                <input type="number" id="quantity-lost" name="quantity-lost"><br><br>
+                <input type="submit" value="Report Lost Item">
+            </form>
+            <form id="report-found-item">
+                <label for="found-item-name">Item Name:</label>
+                <input type="text" id="found-item-name" name="found-item-name"><br><br>
+                <label for="found-item-description">Item Description:</label>
+                <textarea id="found-item-description" name="found-item-description"></textarea><br><br>
+                <label for="location-found">Location Found:</label>
+                <input type="text" id="location-found" name="location-found"><br><br>
+                <label for="quantity-found">Quantity Found:</label>
+                <input type="number" id="quantity-found" name="quantity-found"><br><br>
+                <label for="founder-name">Name of the Founder:</label>
+                <input type="text" id="founder-name" name="founder-name"><br><br>
+                <label for="founder-contact">Contact of Founder:</label>
+                <input type="tel" id="founder-contac" name="founder-contac"><br><br>
+                <input type="submit" value="Report Found Item">
+            </form>
+            <h3>Lost and Found Listings</h3>
+            <ul id="lost-found-listings">
+                <!-- Listings will be dynamically generated -->
+            </ul>
+        </section>
+        <section id="news-announcements">
+            <h2>News and Announcements</h2>
+            <form id="submit-news-announcement">
+                <label for="news-title">Title:</label>
+                <input type="text" id="news-title" name="news-title"><br><br>
+                <label for="news-content">Content:</label>
+                <textarea id="news-content" name="news-content"></textarea><br><br>
+                <label for="date-published">Date of Publication:</label>
+                <input type="date" name="date-published"><br><br>
+                <input type="submit" value="Submit News/Announcement">
+            </form>
+            <h3>News Feed</h3>
+            <ul id="news-feed">
+                <!-- News feed will be dynamically generated -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contact Information: 0703-4938-331</p>
+        <p>GitHub: https://github.com/Wise-proff/Wise-proff/tree/Data-Scientist <p> 
+        <p>Linkdin: https://www.linkedin.com/in/innocent-okeke-51a1b8297?trk=contact-info </p>
+    </footer>
+    <script src="Lost and Found & News Hub.js"></script>
+</body>
+</html>
